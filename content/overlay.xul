@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!DOCTYPE overlay SYSTEM "chrome://novelreader/locale/overlay.dtd">
+<overlay id="novelreader-overlay"
+	xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+	<menupopup id="menu_ToolsPopup">
+		<menuitem id="novelreader-app" label="&novelreader;" 
+			oncommand="window.loadURI('chrome://novelreader/content/app.xhtml');"/>
+	</menupopup>
+</overlay>

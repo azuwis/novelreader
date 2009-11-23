@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title> Novel Downer</title>
+	<base href="chrome://helloworld/content" />
+</head>
+<body>
+	hello
+	<script type="application/javascript">
+		<![CDATA[
+		var Application = Components.classes["@mozilla.org/fuel/application;1"].getService(Components.interfaces.fuelIApplication);
+		var a = Application.prefs.getValue("breakpad.reportURL", false)
+		alert(a);
+		//alert(typeof(Application));
+		]]>
+	</script>
+</body>
+</html>

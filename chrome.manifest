@@ -1,0 +1,3 @@
+content	novelreader content/
+locale  novelreader en-US locale/en-US/
+overlay	chrome://browser/content/browser.xul chrome://novelreader/content/overlay.xul
