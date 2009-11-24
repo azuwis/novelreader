@@ -5,6 +5,6 @@
 
 	<menupopup id="menu_ToolsPopup">
 		<menuitem id="novelreader-app" label="&novelreader;" 
-			oncommand="window.loadURI('chrome://novelreader/content/app.xhtml');"/>
+			oncommand="window.loadURI('chrome://novelreader/content/app.html');"/>
 	</menupopup>
 </overlay>
